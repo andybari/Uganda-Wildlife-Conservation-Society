@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UWCS - Wildlife Conservation</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #6bbf73;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            text-align: center;
+            background-color: #e8f5e9;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #6bbf73;
+            color: white;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #6bbf73;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Card Styles */
+        .card {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: #6bbf73;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #6bbf73;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        footer a:hover {
+            background-color: #4d9e5c;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 90%;
+                margin: 10px auto;
+            }
+
+            nav a {
+                padding: 8px 15px;
+                font-size: 1.1em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                padding: 6px 12px;
+                font-size: 1em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+
+        /* Image Styling */
+        .hero-image, .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .hero-image {
+            height: 400px; /* Fixed height for hero images */
+            object-fit: cover;
+        }
+
+        .project-image {
+            height: 200px; /* Fixed height for project images */
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UWCS - Uganda Wildlife Conservation Society</h1>
+</header>
+
+<nav>
+    <a href="#wildlife">Wildlife</a>
+    <a href="#education">Education</a>
+    <a href="#support">Support</a>
+</nav>
+
+<section id="wildlife">
+    <h2>Protecting Uganda's Precious Wildlife</h2>
+    <!-- Replace with your actual image link -->
+    <img src="https://www.discoverafrica.com/wp-content/uploads/2018/11/forest-elephants-uganda-safari-credit-_Blasio_Byekwaso.jpg" alt="Uganda Wildlife" class="hero-image">
+    <p>Our Mission: Conserving Uganda's biodiversity through research, education, and community engagement.</p>
+</section>
+
+<section id="education">
+    <h2>Our Projects</h2>
+    <div class="card">
+        <h3>Explore Impact</h3>
+        <!-- Replace with your actual image link -->
+        <img src="https://www.passportandpixels.com/wp-content/uploads/2018/04/Ziwa-154_pp.jpg?ref22=https%3A%2F%2Fwww.passportandpixels.com%2Fuganda-animals-amazing-wildlife%2F" alt="Wildlife Impact" class="project-image">
+        <p>Discover the positive change we are creating in Uganda's wildlife conservation efforts.</p>
+    </div>
+    <div class="card">
+        <h3>Upcoming Events</h3>
+        <!-- Replace with your actual image link -->
+        <img src="https://i0.wp.com/www.gorillasafariexperts.com/wp-content/uploads/2022/03/Wild-Animals-found-in-Uganda.jpg?fit=960%2C602&ssl=1" alt="Upcoming Events" class="project-image">
+        <p>Join us for upcoming events dedicated to wildlife conservation and education.</p>
+    </div>
+    <div class="card">
+        <h3>Recent Conservation News</h3>
+        <!-- Replace with your actual image link -->
+        <img src="https://www.insightsafariholidays.com/wp-content/uploads/gorilla-trekking-1024x687.jpeg" alt="Conservation News" class="project-image">
+        <p>Stay informed on the latest news and updates in the conservation world.</p>
+    </div>
+</section>
+
+<section id="support">
+    <h2>Support Our Work</h2>
+    <!-- Replace with your actual image link -->
+    <img src="https://www.gorillaugandasafaris.com/wp-content/uploads/2019/11/mon.jpg" alt="Support Conservation" class="hero-image">
+    <p>Your support helps protect wildlife and their habitats in Uganda. Get involved today!</p>
+</section>
+
+<footer>
+    <p>Follow Us:</p>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+    <p>Contact Us: <a href="mailto:info@uwcs.org">info@uwcs.org</a></p>
+    <p>Phone: +256 XXX XXX XXX</p>
+</footer>
+
+</body>
+</html>
